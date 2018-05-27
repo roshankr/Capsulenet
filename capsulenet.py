@@ -1,16 +1,3 @@
-
-"""
-Deep Learning Türkiye Topluluğu için Merve Ayyüce Kızrak tarafından hazırlanmıştır. (http://www.ayyucekizrak.com/)
-
-Prof. Geoffrey Hinton’ın “Dynamic Routing Between Capsules” isimli makalesindeki CapsNet algoritmasının Keras Uygulamasıdır.
-Geçerli sürümü TensorFlow’da hazırlanmıştır. Keras sürümünden farklı sürümlere kolaylıkla dönüştürülüp yeniden yazılabilir.
-
-Amaç                        :Kapsül ağının el yazısı rakamları tanımaktaki performansını değerlendirmek.
-Kaynak                      :https://arxiv.org/pdf/1710.09829.pdf (Dynamic Routing Between Capsule)
-Veriseti                    :MNIST (http://yann.lecun.com/exdb/mnist/)
-Algoritma                   :Kapsül Ağları (Capsule Networks-CapsNet)
-
-"""
 import numpy as np
 from keras import layers, models, optimizers
 from keras import backend as K

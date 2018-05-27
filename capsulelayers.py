@@ -1,12 +1,3 @@
-"""
-Deep Learning Türkiye Topluluğu için Merve Ayyüce Kızrak tarafından hazırlanmıştır. (http://www.ayyucekizrak.com/)
-
-Bazı temel katmanlar (evrişimsel katmanlar) bir Kapsül Ağ oluşturmak için kullanılır.
-Kapsül ağ modeli (CapsNet) oluşturmak için kullanılan katmanlar farklı veri setleri üzerinde de kullanılabilir,
-sadece MNIST seti için tasarlanmamıştır.
-
-"""
-
 import keras.backend as K
 import tensorflow as tf
 from keras import initializers, layers
